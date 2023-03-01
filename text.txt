@@ -1,1 +1,39 @@
-salam
+////int[] arr = { 256, 56, 45, 85, 88 ,93};
+////int k;
+////for (int i = 0; i < arr.Length; i++)
+////{
+////    for (int j = i + 1; j < arr.Length; j++)
+////   {
+////       if (arr[i] > arr[j])
+////        {
+////            k = arr[i];
+////            arr[i] = arr[j];
+////            arr[j] = k;
+////        }
+////    }
+////}
+////Console.WriteLine(arr[arr.Length - 2]);
+////int[] arr = { 256, 56, 85, 88,93 };
+////int max = 0;
+////int max2 = 0;
+////for(int i = 0; i < arr.Length; i++)
+////{
+////    if (arr[i]>max)
+////    {
+////        max2 = max;
+////        max = arr[i];
+////    }
+////    else if (arr[i]>max2)
+////    {
+////        max2 = arr[i];
+////    }
+////}
+////Console.WriteLine(max2);
+////string[] ad = { "Aynur, Aydan, Memmed, Cingiz" };
+////  for (int i = 0; i < ad.Length; i++)
+////{
+////    if (ad[i][0] == 'a')
+////    {
+////        Console.WriteLine(ad[i]);
+////    }
+////}
