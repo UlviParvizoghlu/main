@@ -38,12 +38,12 @@
 ////    }
 ////}
 int[] array1 = {4, 5, 3,6,4,3 };
-int[] array2 = { 7, 4, 2, 76,45,65 };
+int[] array2 = { 7, 4, 2, 76 , 45, 65 };
 for (int i = 0; i < array1.Length; i++)
 {
-    for(int j;j< array2.Length; j++)
+    bool test = false;
+    for (int j=0; j < array2.Length; j++)
     {
-        bool test = false;
         if (array1[i] == array2[j])
         {
             test = true;
