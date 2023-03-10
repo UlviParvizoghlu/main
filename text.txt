@@ -72,4 +72,27 @@ foreach (char c in input)
 double percent = ((double)count / input.Length) * 100;
 Console.WriteLine(percent);
 
+int[] arr = { 1, 2, 3, 1, 5, 7, 5, 5, 9 };
+int n = arr.Length;
+int max = 0;
+int moda = 0;
+
+for (int i = 0; i < n; i++)
+{
+    int count = 0;
+    for (int j = 0; j < n; j++)
+    {
+        if (arr[i] == arr[j])
+        {
+            count++;
+        }
+    }
+    if (count > max)
+    {
+        max = count;
+        moda = arr[i];
+    }
+}
+Console.WriteLine(moda);
+
 
