@@ -93,5 +93,38 @@ for (int i = 0; i < n; i++)
     }
 }
 Console.WriteLine(moda);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text-center">Testimonial</h1>
+    <div class="container mt-5">
+        <div class="row border align-items-center">
+            <div class="col-6 p-5">
+                <p class="border">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea distinctio facere odio. Cum voluptates nostrum ex hic, est accusantium voluptate tempore dolorum modi fugit neque amet rem numquam reiciendis pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus esse sint voluptate neque unde adipisci quas illo error vero nihil inventore maxime voluptatum fugiat deleniti vitae veritatis consequuntur, exercitationem, tenetur rem blanditiis possimus ipsam corrupti nam tempora! Illum voluptate, fugit aperiam ullam architecto mollitia doloribus itaque voluptatibus maxime nam minima!</p>
+            </div>
+            <div class="col-6">
+                <div class="second">
+                    <img src="./nature.avif" alt="...">
+                    <div class="div__dame">
+                    <p>DAME</p>
+                    <p>Customer</p>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
 
 
