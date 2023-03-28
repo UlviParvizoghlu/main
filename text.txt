@@ -126,5 +126,22 @@ Console.WriteLine(moda);
     </div>
 </body>
 </html>
+Console.Write("Enter the number: ");
+int number = int.Parse(Console.ReadLine());
+
+int count = 0;
+
+for(int i = 1; i <= number; i++)
+{
+    if(number%i==0)
+        count++;
+}
+
+if (number == 1)
+    Console.WriteLine("Neither simple nor complex");
+else if (count > 2) 
+    Console.WriteLine("The number is complex.");
+   else 
+    Console.WriteLine("The number is simple.");
 
 
